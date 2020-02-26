@@ -1,17 +1,16 @@
 # dictionary_hands_on
 
-このリポジトリは2020/1/29に開催されるFlutter Handson Osaka #1に利用します。
-
+このリポジトリはFlutter Handsonに利用します。
+今回はAndroidでいきます
 
 
 [TOC]
 
 
-
-
 ## 機能概要
 
 自動翻訳機能付きの単語帳アプリ作成のための雛形です。
+とりあえずこいつが起動できるように準備してくださいm(._.)m
 
 
 
@@ -258,9 +257,6 @@ Googleアナリティクスを有効にするにチェックを入れ続行を�
 
 ⑤Cloud Firestore のロケーション をasia-northeast1にして「完了」を押下。
 
----------------------------------------------
-※以下2020/2/3追記※
-
 ⑥「インデックス」を押下
 
 ⑦「インデックスを追加」を押下し
@@ -269,12 +265,7 @@ Googleアナリティクスを有効にするにチェックを入れ続行を�
 
 コレクションID→dictionary
 
-※以下2020/2/7修正※
-
-○フィールドのパス1→type,Ascending
-
-×フィールドのパス1→word,Ascending
-
+フィールドのパス1→type,Ascending
 
 フィールドのパス2→created_at,Descending
 
@@ -341,7 +332,7 @@ Googleアナリティクスを有効にするにチェックを入れ続行を�
 #### 1,git clone
 
 ①以下リポジトリをクローン
-https://github.com/YujiOnishi/dictionary_hands_on_hinagata.git
+https://github.com/sk-welldan/dictionary_hands_on_hinagata.git
 
 
 
